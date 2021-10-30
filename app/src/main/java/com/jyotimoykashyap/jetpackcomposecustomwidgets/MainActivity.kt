@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.Center
                     ) {
-                        TicketComposable(modifier = Modifier)
+                        DynamicButton()
                     }
                 }
             }
